@@ -1,5 +1,14 @@
 export const projects = [
   {
+    title: "Calculator App",
+    description: "This is a vanilla JS Calculator Application",
+    image: "/images/Calculator.png",
+    tags: ["JavaScript", "HTML", "CSS"],
+    source: "https://calculator-gules-sigma.vercel.app/",
+    visit: "https://github.com/Ahmed-Elarosi/Calculator",
+    id: 0,
+  },
+  {
     title: "MERN Imageboard",
     description:
       "Using React, Node.js, Express & MongoDB  a Full Stack MERN Application - from start to finish. The App is called Imageboard and it is a simple social media app that allows users to post interesting images they have in their lives.",
@@ -7,7 +16,7 @@ export const projects = [
     tags: ["Mongo", "Express", "React", "Node"],
     source: "https://google.com",
     visit: "https://google.com",
-    id: 0,
+    id: 1,
   },
   {
     title: "E-Commerce",
@@ -19,19 +28,10 @@ export const projects = [
     tags: ["React", "JavaScript"],
     source: "https://google.com",
     visit: "https://google.com",
-    id: 1,
-  },
-  /*{
-    title: "WebRTC App",
-    description:
-      "This is a code repository for the corresponding YouTube video. In this tutorial, we're going to build and deploy a React Video Chat Application using WebRTC.",
-    image: "/images/3.jpg",
-    tags: ["React", "WebRTC"],
-    source: "https://google.com",
-    visit: "https://google.com",
     id: 2,
   },
-  {
+
+  /*{
     title: "Unichat",
     description:
       "This is a code repository for the corresponding video tutorial. In this video, we will create a full Realtime Chat Application",
