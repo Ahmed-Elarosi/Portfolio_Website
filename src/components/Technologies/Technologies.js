@@ -1,5 +1,6 @@
 import React from "react";
 import { DiFirebase, DiReact, DiZend } from "react-icons/di";
+import { AiOutlineFundProjectionScreen } from "react-icons/ai";
 import {
   Section,
   SectionDivider,
@@ -30,7 +31,14 @@ const Technologies = () => (
           <ListTitle>Front-End</ListTitle>
           <ListParagraph>
             Experience with <br />
-            React.js
+            <SectionSubText>HTML</SectionSubText>
+            <SectionSubText>CSS</SectionSubText>
+            <SectionSubText>JavaScript</SectionSubText>
+            <SectionSubText>React.js</SectionSubText>
+            <SectionSubText>JQuery</SectionSubText>
+            <SectionSubText>Material-UI</SectionSubText>
+            <SectionSubText>Styled-components</SectionSubText>
+            <SectionSubText>Bootstrap</SectionSubText>
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -40,7 +48,10 @@ const Technologies = () => (
           <ListTitle>Back-End</ListTitle>
           <ListParagraph>
             Experience with <br />
-            Node.js and Databases
+            <SectionSubText>Node.js</SectionSubText>
+            <SectionSubText>Express</SectionSubText>
+            <SectionSubText>MySQL</SectionSubText>
+            <SectionSubText>MongoDB</SectionSubText>
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -50,7 +61,19 @@ const Technologies = () => (
           <ListTitle>UI/UX</ListTitle>
           <ListParagraph>
             Experience with <br />
-            Figma
+            <SectionSubText>Figma</SectionSubText>
+            <SectionSubText></SectionSubText>
+          </ListParagraph>
+        </ListContainer>
+      </ListItem>
+      <ListItem>
+        <AiOutlineFundProjectionScreen size="3rem" />
+        <ListContainer>
+          <ListTitle>Other</ListTitle>
+          <ListParagraph>
+            Experience with <br />
+            <SectionSubText>Agile Development</SectionSubText>
+            <SectionSubText>Project Management</SectionSubText>
           </ListParagraph>
         </ListContainer>
       </ListItem>
