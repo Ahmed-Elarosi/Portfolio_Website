@@ -31,16 +31,16 @@ export const projects = [
     id: 2,
   },
 
-  /*{
-    title: "Unichat",
+  {
+    title: "Drums kit",
     description:
-      "This is a code repository for the corresponding video tutorial. In this video, we will create a full Realtime Chat Application",
-    image: "/images/4.jpg",
-    tags: ["React", "ChatEngine", "Firebase"],
-    source: "https://google.com",
-    visit: "https://google.com",
+      "If you like playing music and want to try online drums feel free to play with it. Using Vanilla JS, JS Dom manipulation, HTML and CSS without using any Framework",
+    image: "/images/drums.jpg",
+    tags: ["Vanilla JavaScript", "HTML", "CSS"],
+    source: "https://drum-kit-alpha.vercel.app",
+    visit: "https://github.com/Ahmed-Elarosi/JavaScript-Drum-Kit",
     id: 3,
-  },*/
+  },
 ];
 
 export const TimeLineData = [
