@@ -1,12 +1,22 @@
 export const projects = [
   {
+    title: "Web Developer Portfolio",
+    description:
+      "This is a website that showcases and proves that I can do what I'm talking about in my resume",
+    image: "/images/portfolio.png",
+    tags: ["JavaScript", "Next.js", "Styled-components"],
+    source: "https://ahmed-elarosi.vercel.app/",
+    visit: "https://github.com/Ahmed-Elarosi/Portfolio_Website",
+    id: 0,
+  },
+  {
     title: "Calculator App",
     description: "This is a vanilla JS Calculator Application",
     image: "/images/Calculator.png",
     tags: ["JavaScript", "HTML", "CSS"],
     source: "https://calculator-gules-sigma.vercel.app",
     visit: "https://github.com/Ahmed-Elarosi/Calculator",
-    id: 0,
+    id: 1,
   },
   {
     title: "MERN Imageboard",
@@ -16,7 +26,7 @@ export const projects = [
     tags: ["Mongo", "Express", "React", "Node"],
     source: "https://imageboard.vercel.app",
     visit: "https://github.com/Ahmed-Elarosi/imageboard-frontend",
-    id: 1,
+    id: 2,
   },
   {
     title: "E-Commerce",
@@ -28,7 +38,7 @@ export const projects = [
     tags: ["React", "JavaScript"],
     source: "https://google.com",
     visit: "https://google.com",
-    id: 2,
+    id: 3,
   },
 
   {
@@ -39,7 +49,7 @@ export const projects = [
     tags: ["Vanilla JavaScript", "HTML", "CSS"],
     source: "https://drum-kit-alpha.vercel.app",
     visit: "https://github.com/Ahmed-Elarosi/JavaScript-Drum-Kit",
-    id: 3,
+    id: 4,
   },
 ];
 
