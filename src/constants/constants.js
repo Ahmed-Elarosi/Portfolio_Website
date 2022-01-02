@@ -51,6 +51,17 @@ export const projects = [
     visit: "https://github.com/Ahmed-Elarosi/JavaScript-Drum-Kit",
     id: 4,
   },
+
+  {
+    title: "Clock",
+    description:
+      "If you wanna know What time is it? :). Using Vanilla JS, JS Dom manipulation, HTML and CSS without using any Framework",
+    image: "/images/clock.png",
+    tags: ["Vanilla JavaScript", "HTML", "CSS"],
+    source: "https://clock-weld.vercel.app/",
+    visit: "https://github.com/Ahmed-Elarosi/Clock",
+    id: 5,
+  },
 ];
 
 export const TimeLineData = [
